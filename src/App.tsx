@@ -3,10 +3,13 @@ import { MapProvider } from "./providers/map_provider";
 
 function App() {
   return (
-    <MapProvider>
-      <div style={{ width: "100vw", height: "100vh" }} id="map" />
-      <div></div>
-    </MapProvider>
+    <MapProvider
+      children={<div style={{ width: "100vw", height: "100vh" }} id="map" />}
+    />
+    // <MapProvider>
+    //   <div style={{ width: "100vw", height: "100vh" }} id="map" />
+    //   <div></div>
+    // </MapProvider>
   );
 }
 
