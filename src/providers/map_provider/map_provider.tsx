@@ -2,6 +2,7 @@ import { ReactNode, useEffect, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import osmtogeojson from "osmtogeojson";
+import { useMapStore } from "../../store/mapStore";
 
 type TMapProviderProps = { children: ReactNode };
 
@@ -16,6 +17,8 @@ interface IMarker {
 }
 
 export const MapProvider = ({ children }: TMapProviderProps) => {
+  const { center, zoom, setCenter, setZoom } = useMapStore();
+
   const [markers, setMarker] = useState<IMarker[]>([
     {
       id: 0,
@@ -25,6 +28,7 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
       draggable: true,
     },
   ]);
+
   const [osmPolygonData, setOsmPolygonData] = useState(null);
 
   const addMarker = (e: maplibregl.MapMouseEvent & Object) => {
@@ -84,8 +88,18 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
           },
         ],
       },
-      center: [0, 0],
-      zoom: 1,
+      center,
+      zoom,
+    });
+
+    map.on("moveend", () => {
+      const newCenter = map.getCenter().toArray(); // Получаем новый центр
+      setCenter(newCenter); // Обновляем в store
+    });
+
+    map.on("zoomend", () => {
+      const newZoom = map.getZoom(); // Получаем новый уровень зума
+      setZoom(newZoom); // Обновляем в store
     });
 
     map.on("load", () => {
@@ -95,12 +109,16 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
         data: osmPolygonData, // Данные полигона из OSM
       });
 
+      // map.on("moveeon", () => {
+      //   setZoom(zoom);
+      // }); // хзззззз бляяяя
+
       map.addLayer({
         id: "osm-polygon-layer",
         type: "fill",
         source: "osm-polygon-source",
         paint: {
-          "fill-color": "black", // Цвет полигона
+          "fill-color": "yellow", // Цвет полигона
           "fill-opacity": 0.5, // Прозрачность полигона
         },
       });
