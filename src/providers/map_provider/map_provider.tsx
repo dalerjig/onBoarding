@@ -6,7 +6,7 @@ import { useMapStore } from "../../store/mapStore";
 
 type TMapProviderProps = { children: ReactNode };
 
-interface IMarker {
+export interface IMarker {
   id: number;
   color?: string;
   lng: number;
@@ -17,31 +17,29 @@ interface IMarker {
 }
 
 export const MapProvider = ({ children }: TMapProviderProps) => {
-  const { center, zoom, setCenter, setZoom } = useMapStore();
+  const { setMarker, markers, center, zoom, setCenter, setZoom } =
+    useMapStore();
 
-  const [markers, setMarker] = useState<IMarker[]>([
-    {
-      id: 0,
-      color: "#FFFFFFAA",
-      lng: 0,
-      lat: 0,
-      draggable: true,
-    },
-  ]);
+  // const [markers, setMarker] = useState<IMarker[]>([
+  //   {
+  //     id: 0,
+  //     color: "#FFFFFFAA",
+  //     lng: 0,
+  //     lat: 0,
+  //     draggable: true,
+  //   },
+  // ]);
 
   const [osmPolygonData, setOsmPolygonData] = useState(null);
 
   const addMarker = (e: maplibregl.MapMouseEvent & Object) => {
-    setMarker([
-      ...markers,
-      {
-        id: markers[markers.length - 1].id + 1,
-        color: "#FFFFFFAA",
-        lng: e.lngLat.wrap().lng,
-        lat: e.lngLat.wrap().lat,
-        draggable: true,
-      },
-    ]);
+    setMarker({
+      id: markers[markers.length - 1]?.id + 1 || 1,
+      color: "#FFFFFFAA",
+      lng: e.lngLat.wrap().lng,
+      lat: e.lngLat.wrap().lat,
+      draggable: true,
+    });
 
     new maplibregl.Marker({
       color: "FFFFFFF",
@@ -65,6 +63,8 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
   }, []);
 
   useEffect(() => {
+    //if (!osmPolygonData) return;
+
     const map = new maplibregl.Map({
       container: "map", // container id
       style: {
@@ -104,9 +104,11 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
 
     map.on("load", () => {
       // Добавление слоя с полигоном
+
+      // if (osmPolygonData) {
       map.addSource("osm-polygon-source", {
         type: "geojson",
-        data: osmPolygonData, // Данные полигона из OSM
+        data: osmPolygonData!, // Данные полигона из OSM(не пусто!!)
       });
 
       // map.on("moveeon", () => {
@@ -133,6 +135,7 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
           "line-dasharray": [2, 2], // Пунктирная линия (2px линия, 2px пробел)
         },
       });
+      // }
     });
 
     markers.forEach((mark) => {
@@ -148,7 +151,9 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
     return () => {
       map.remove();
     };
-  }, []);
+  }, [osmPolygonData]);
+
+  //при пустом массиве юэф 1 раз лишь срабатывает при монтировании
 
   return <>{children}</>;
 };

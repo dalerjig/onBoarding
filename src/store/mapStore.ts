@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { IMarker } from '../providers/map_provider/map_provider';
 
 
 
@@ -10,7 +11,7 @@ export const useMapStore = create(
       center:[0,0],
       zoom:1,
     
-      addNewMarker: (newMarker) => set({
+      setMarker: (newMarker:IMarker) => set({
         markers: [...get().markers, newMarker] 
       }),
 
