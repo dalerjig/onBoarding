@@ -1,1 +1,0 @@
-export {MapProvider}from "./map_provider"

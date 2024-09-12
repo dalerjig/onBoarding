@@ -2,49 +2,40 @@ import { ReactNode, useEffect, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import osmtogeojson from "osmtogeojson";
-import { useMapStore } from "../../store/mapStore";
 
 type TMapProviderProps = { children: ReactNode };
+import { useMapStore } from "../../store/mapStore";
+import { uniqueId } from "lodash";
 
-export interface IMarker {
-  id: number;
-  color?: string;
-  lng: number;
-  lat: number;
-  className?: string;
-  draggable: boolean;
-  scale?: number;
-}
+//коорды в консоль падали(подписаться на изм зустанд)
+// поменялись ли
 
-export const MapProvider = ({ children }: TMapProviderProps) => {
+export const MapProvider: React.FC<TMapProviderProps> = ({ children }) => {
+  //{children}: TMapProviderProps
   const { setMarker, markers, center, zoom, setCenter, setZoom } =
     useMapStore();
 
-  // const [markers, setMarker] = useState<IMarker[]>([
-  //   {
-  //     id: 0,
-  //     color: "#FFFFFFAA",
-  //     lng: 0,
-  //     lat: 0,
-  //     draggable: true,
-  //   },
-  // ]);
-
   const [osmPolygonData, setOsmPolygonData] = useState(null);
 
-  const addMarker = (e: maplibregl.MapMouseEvent & Object) => {
+  const addMarker = (e: maplibregl.MapMouseEvent) => {
+    //const newId = Number(setUniqueId());
+    const unique =
+      e.lngLat.wrap().lng >= 0 ? e.lngLat.wrap().lng : e.lngLat.wrap().lng * -1;
+    //console.log(unique);
+    //либо меняем тип
     setMarker({
-      id: markers[markers.length - 1]?.id + 1 || 1,
+      id: String(uniqueId(`${unique}_`)),
       color: "#FFFFFFAA",
       lng: e.lngLat.wrap().lng,
       lat: e.lngLat.wrap().lat,
       draggable: true,
     });
-
+    console.log(markers);
     new maplibregl.Marker({
       color: "FFFFFFF",
       draggable: true,
     })
+      //lngtat wram-const
       .setLngLat([e.lngLat.wrap().lng, e.lngLat.wrap().lat])
       .addTo(e.target);
   };
@@ -63,8 +54,6 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
   }, []);
 
   useEffect(() => {
-    //if (!osmPolygonData) return;
-
     const map = new maplibregl.Map({
       container: "map", // container id
       style: {
@@ -88,10 +77,9 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
           },
         ],
       },
-      center,
-      zoom,
+      center: center,
+      zoom: zoom,
     });
-
     map.on("moveend", () => {
       const newCenter = map.getCenter().toArray(); // Получаем новый центр
       setCenter(newCenter); // Обновляем в store
@@ -105,15 +93,10 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
     map.on("load", () => {
       // Добавление слоя с полигоном
 
-      // if (osmPolygonData) {
       map.addSource("osm-polygon-source", {
         type: "geojson",
         data: osmPolygonData!, // Данные полигона из OSM(не пусто!!)
       });
-
-      // map.on("moveeon", () => {
-      //   setZoom(zoom);
-      // }); // хзззззз бляяяя
 
       map.addLayer({
         id: "osm-polygon-layer",
@@ -135,7 +118,6 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
           "line-dasharray": [2, 2], // Пунктирная линия (2px линия, 2px пробел)
         },
       });
-      // }
     });
 
     markers.forEach((mark) => {
@@ -151,34 +133,9 @@ export const MapProvider = ({ children }: TMapProviderProps) => {
     return () => {
       map.remove();
     };
-  }, [osmPolygonData]);
+  }, [osmPolygonData, map]);
 
   //при пустом массиве юэф 1 раз лишь срабатывает при монтировании
 
-  return <>{children}</>;
+  return children;
 };
-
-// const apiKey = "bdnDr4eItzUHU3M-rwPuZNFVjSSnHfiuzbXyLvEfAEA";
-// const apiUrl = `https://api.openstreetmap.org/api/0.6/map?bbox=left,bottom,right,top&key=${apiKey}`;
-
-// async function fetchOSMData() {
-//   try {
-//     const response = await fetch(apiUrl, {
-//       method: "GET",
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//     });
-
-//     if (!response.ok) {
-//       throw new Error("Ошибка при выполнении запроса к OSM API");
-//     }
-
-//     const data = await response.json();
-//     console.log(data);
-//   } catch (error) {
-//     console.error("Ошибка:", error);
-//   }
-// }
-
-// fetchOSMData();

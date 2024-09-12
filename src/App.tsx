@@ -1,5 +1,5 @@
 import "./App.css";
-import { MapProvider } from "./providers/map_provider";
+import { MapProvider } from "./providers/map_provider/map_provider";
 
 function App() {
   return (

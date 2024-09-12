@@ -1,28 +1,68 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { IMarker } from '../providers/map_provider/map_provider';
+
+import { IMarker,IMapStore  } from '../types/marker';
+
 
 
 
 export const useMapStore = create(
-  persist(
+  persist<IMapStore>(
     (set, get) => ({
+
+     
+     map:{
+      container: "map", // container id
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: "raster",
+            tiles: [
+              "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "https://b.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            ],
+            tileSize: 256,
+          },
+        },
+        layers: [
+          {
+            id: "osm-layer",
+            type: "raster",
+            source: "osm",
+          },
+        ],
+      },
+      center: [0,0],
+      zoom: 1,
+    },
+
+
+
+
+
+
       markers: [], 
-      center:[0,0],
-      zoom:1,
-    
+     
+      
       setMarker: (newMarker:IMarker) => set({
         markers: [...get().markers, newMarker] 
       }),
 
-      setCenter: (newCenter) => set({
+      setCenter: (newCenter:[number,number]) => set({
         center: newCenter
       }),
 
       
-      setZoom: (newZoom) => set({
+      setZoom: (newZoom:number) => set({
         zoom: newZoom
       }),
+
+      // setUniqueId: () => {
+        
+      //   return uniqueId(); 
+      // }
 
     }),
     {
