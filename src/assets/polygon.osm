@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.0.1 (1980 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="61.2720780" minlon="73.3936580" maxlat="61.2732950" maxlon="73.3964100"/>
+ <node id="302919344" visible="true" version="18" changeset="10311397" timestamp="2012-01-06T13:22:56Z" user="toorboalex" uid="463102" lat="61.2720480" lon="73.3953480">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="657529893" visible="true" version="9" changeset="10716868" timestamp="2012-02-18T03:54:57Z" user="toorboalex" uid="463102" lat="61.2739451" lon="73.3967339">
+  <tag k="railway" v="level_crossing"/>
+ </node>
+ <node id="657529894" visible="true" version="5" changeset="11272259" timestamp="2012-04-12T04:53:27Z" user="toorboalex" uid="463102" lat="61.2757364" lon="73.3975816"/>
+ <node id="740549155" visible="true" version="9" changeset="26112463" timestamp="2014-10-16T08:22:46Z" user="toorboalex" uid="463102" lat="61.2724572" lon="73.3956436"/>
+ <node id="889687184" visible="true" version="6" changeset="11272259" timestamp="2012-04-12T04:53:27Z" user="toorboalex" uid="463102" lat="61.2755998" lon="73.3976942"/>
+ <node id="1096062183" visible="true" version="7" changeset="28722290" timestamp="2015-02-09T09:00:26Z" user="toorboalex" uid="463102" lat="61.2726585" lon="73.3947503"/>
+ <node id="1096062511" visible="true" version="7" changeset="28722290" timestamp="2015-02-09T09:00:26Z" user="toorboalex" uid="463102" lat="61.2726022" lon="73.3943059"/>
+ <node id="1096062531" visible="true" version="6" changeset="34877989" timestamp="2015-10-26T11:02:40Z" user="toorboalex" uid="463102" lat="61.2723298" lon="73.3934266"/>
+ <node id="1096062648" visible="true" version="6" changeset="11272841" timestamp="2012-04-12T06:45:40Z" user="toorboalex" uid="463102" lat="61.2724515" lon="73.3938102"/>
+ <node id="1192367795" visible="true" version="5" changeset="11250986" timestamp="2012-04-10T11:23:32Z" user="toorboalex" uid="463102" lat="61.2720952" lon="73.3986030"/>
+ <node id="1192367803" visible="true" version="6" changeset="11250436" timestamp="2012-04-10T10:29:27Z" user="toorboalex" uid="463102" lat="61.2727457" lon="73.4010230"/>
+ <node id="1192367836" visible="true" version="6" changeset="11250436" timestamp="2012-04-10T10:29:27Z" user="toorboalex" uid="463102" lat="61.2732414" lon="73.4013251"/>
+ <node id="1536478943" visible="true" version="3" changeset="149087307" timestamp="2024-03-24T12:49:17Z" user="toorboalex" uid="463102" lat="61.2719275" lon="73.3944095"/>
+ <node id="1536478982" visible="true" version="3" changeset="25111611" timestamp="2014-08-30T07:34:51Z" user="toorboalex" uid="463102" lat="61.2721605" lon="73.3946019">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="1536479009" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:06Z" user="toorboalex" uid="463102" lat="61.2725078" lon="73.3953536"/>
+ <node id="1536479012" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2725496" lon="73.3953834"/>
+ <node id="1536479015" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2726201" lon="73.3948945"/>
+ <node id="1536479017" visible="true" version="3" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2726397" lon="73.3945536"/>
+ <node id="1536479018" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2726725" lon="73.3945770"/>
+ <node id="1536479019" visible="true" version="3" changeset="26112463" timestamp="2014-10-16T08:22:46Z" user="toorboalex" uid="463102" lat="61.2726585" lon="73.3957803"/>
+ <node id="1536479020" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2726907" lon="73.3954842"/>
+ <node id="1536479021" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2727069" lon="73.3943683"/>
+ <node id="1536479037" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2727791" lon="73.3950080"/>
+ <node id="1536479040" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2727318" lon="73.3955135"/>
+ <node id="1536479042" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2728314" lon="73.3946905"/>
+ <node id="1536479044" visible="true" version="4" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2728659" lon="73.3944817"/>
+ <node id="1536479046" visible="true" version="3" changeset="28726212" timestamp="2015-02-09T12:33:07Z" user="toorboalex" uid="463102" lat="61.2728637" lon="73.3947135"/>
+ <node id="1637353698" visible="true" version="2" changeset="34638660" timestamp="2015-10-14T18:14:02Z" user="LexIgnatov" uid="316868" lat="61.2733785" lon="73.3962295"/>
+ <node id="1637353700" visible="true" version="1" changeset="10716868" timestamp="2012-02-18T03:54:53Z" user="toorboalex" uid="463102" lat="61.2737158" lon="73.3965006"/>
+ <node id="1709379210" visible="true" version="4" changeset="145911547" timestamp="2024-01-05T08:45:28Z" user="toorboalex" uid="463102" lat="61.2708870" lon="73.4043673"/>
+ <node id="1709807493" visible="true" version="2" changeset="11250436" timestamp="2012-04-10T10:29:28Z" user="toorboalex" uid="463102" lat="61.2732986" lon="73.4013600"/>
+ <node id="1709817476" visible="true" version="1" changeset="11250436" timestamp="2012-04-10T10:29:25Z" user="toorboalex" uid="463102" lat="61.2733422" lon="73.4010504"/>
+ <node id="1709872106" visible="true" version="1" changeset="11250986" timestamp="2012-04-10T11:23:22Z" user="toorboalex" uid="463102" lat="61.2717466" lon="73.3983970"/>
+ <node id="1709872138" visible="true" version="1" changeset="11250986" timestamp="2012-04-10T11:23:23Z" user="toorboalex" uid="463102" lat="61.2721175" lon="73.3958743"/>
+ <node id="1709872143" visible="true" version="1" changeset="11250986" timestamp="2012-04-10T11:23:23Z" user="toorboalex" uid="463102" lat="61.2721458" lon="73.3982814"/>
+ <node id="1709872171" visible="true" version="2" changeset="114137733" timestamp="2021-11-23T12:01:08Z" user="toorboalex" uid="463102" lat="61.2723748" lon="73.3993482"/>
+ <node id="1709872201" visible="true" version="2" changeset="114137733" timestamp="2021-11-23T12:01:08Z" user="toorboalex" uid="463102" lat="61.2724896" lon="73.3985113"/>
+ <node id="1709872215" visible="true" version="2" changeset="26112463" timestamp="2014-10-16T08:22:46Z" user="toorboalex" uid="463102" lat="61.2725273" lon="73.3960858">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="1709872360" visible="true" version="1" changeset="11250986" timestamp="2012-04-10T11:23:28Z" user="toorboalex" uid="463102" lat="61.2735606" lon="73.3966920"/>
+ <node id="1709872365" visible="true" version="1" changeset="11250986" timestamp="2012-04-10T11:23:28Z" user="toorboalex" uid="463102" lat="61.2736213" lon="73.3967138"/>
+ <node id="1709872366" visible="true" version="1" changeset="11250986" timestamp="2012-04-10T11:23:29Z" user="toorboalex" uid="463102" lat="61.2736664" lon="73.3987131"/>
+ <node id="1709872371" visible="true" version="1" changeset="11250986" timestamp="2012-04-10T11:23:29Z" user="toorboalex" uid="463102" lat="61.2736874" lon="73.3968032"/>
+ <node id="1712349599" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:31Z" user="toorboalex" uid="463102" lat="61.2724077" lon="73.3935857"/>
+ <node id="1712349600" visible="true" version="2" changeset="33566479" timestamp="2015-08-25T09:56:42Z" user="toorboalex" uid="463102" lat="61.2725156" lon="73.3938748">
+  <tag k="barrier" v="block"/>
+  <tag k="foot" v="yes"/>
+  <tag k="material" v="concrete"/>
+ </node>
+ <node id="1712349603" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:31Z" user="toorboalex" uid="463102" lat="61.2727309" lon="73.3940454"/>
+ <node id="1712349604" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:31Z" user="toorboalex" uid="463102" lat="61.2727524" lon="73.3956232"/>
+ <node id="1712349605" visible="true" version="2" changeset="28722290" timestamp="2015-02-09T09:00:26Z" user="toorboalex" uid="463102" lat="61.2727575" lon="73.3949183"/>
+ <node id="1712349606" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2727550" lon="73.3941576"/>
+ <node id="1712349607" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2727707" lon="73.3940705">
+  <tag k="barrier" v="gate"/>
+  <tag k="motorcar" v="yes"/>
+ </node>
+ <node id="1712349608" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728221" lon="73.3939774"/>
+ <node id="1712349609" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728320" lon="73.3932277"/>
+ <node id="1712349610" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728524" lon="73.3932943">
+  <tag k="barrier" v="gate"/>
+  <tag k="foot" v="yes"/>
+  <tag k="motorcar" v="yes"/>
+ </node>
+ <node id="1712349611" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728535" lon="73.3930834"/>
+ <node id="1712349612" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728776" lon="73.3929219"/>
+ <node id="1712349614" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728891" lon="73.3934142"/>
+ <node id="1712349615" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728908" lon="73.3928332"/>
+ <node id="1712349616" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2728983" lon="73.3935317"/>
+ <node id="1712349618" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2729202" lon="73.3926366"/>
+ <node id="1712349619" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2729206" lon="73.3940502"/>
+ <node id="1712349620" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2729247" lon="73.3941958"/>
+ <node id="1712349621" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2729513" lon="73.3931700"/>
+ <node id="1712349623" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:32Z" user="toorboalex" uid="463102" lat="61.2729624" lon="73.3923533"/>
+ <node id="1712349624" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:33Z" user="toorboalex" uid="463102" lat="61.2729719" lon="73.3943212"/>
+ <node id="1712349625" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:33Z" user="toorboalex" uid="463102" lat="61.2729753" lon="73.3922667"/>
+ <node id="1712349627" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:33Z" user="toorboalex" uid="463102" lat="61.2729841" lon="73.3922077"/>
+ <node id="1712349628" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:33Z" user="toorboalex" uid="463102" lat="61.2729967" lon="73.3936045"/>
+ <node id="1712349631" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:33Z" user="toorboalex" uid="463102" lat="61.2730173" lon="73.3919850"/>
+ <node id="1712349635" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:33Z" user="toorboalex" uid="463102" lat="61.2730390" lon="73.3935090"/>
+ <node id="1712349640" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:34Z" user="toorboalex" uid="463102" lat="61.2733282" lon="73.3921539"/>
+ <node id="1712349641" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:34Z" user="toorboalex" uid="463102" lat="61.2734566" lon="73.3961203"/>
+ <node id="1712349642" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:34Z" user="toorboalex" uid="463102" lat="61.2734923" lon="73.3960876"/>
+ <node id="1712349643" visible="true" version="2" changeset="19493724" timestamp="2013-12-17T07:31:40Z" user="toorboalex" uid="463102" lat="61.2735183" lon="73.3959702"/>
+ <node id="1805787125" visible="true" version="1" changeset="12053513" timestamp="2012-06-29T07:19:18Z" user="toorboalex" uid="463102" lat="61.2720192" lon="73.4010500"/>
+ <node id="1805787127" visible="true" version="1" changeset="12053513" timestamp="2012-06-29T07:19:18Z" user="toorboalex" uid="463102" lat="61.2721255" lon="73.4011141"/>
+ <node id="1805787130" visible="true" version="1" changeset="12053513" timestamp="2012-06-29T07:19:18Z" user="toorboalex" uid="463102" lat="61.2721859" lon="73.4006810"/>
+ <node id="1805787134" visible="true" version="1" changeset="12053513" timestamp="2012-06-29T07:19:18Z" user="toorboalex" uid="463102" lat="61.2723738" lon="73.4007834"/>
+ <node id="1805787136" visible="true" version="1" changeset="12053513" timestamp="2012-06-29T07:19:19Z" user="toorboalex" uid="463102" lat="61.2725406" lon="73.4008886"/>
+ <node id="1918248267" visible="true" version="3" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2746062" lon="73.3782792"/>
+ <node id="2010267401" visible="true" version="3" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2738475" lon="73.3839273"/>
+ <node id="2583240998" visible="true" version="1" changeset="19493380" timestamp="2013-12-17T06:55:54Z" user="toorboalex" uid="463102" lat="61.2747805" lon="73.3972742"/>
+ <node id="2583338549" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2731964" lon="73.3946513"/>
+ <node id="2583338551" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2732033" lon="73.3942160"/>
+ <node id="2583338553" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2732033" lon="73.3949047"/>
+ <node id="2583338555" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2732341" lon="73.3951580"/>
+ <node id="2583338556" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2732736" lon="73.3938877"/>
+ <node id="2583338558" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2733696" lon="73.3953364"/>
+ <node id="2583338560" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2734194" lon="73.3934524"/>
+ <node id="2583338570" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:23Z" user="toorboalex" uid="463102" lat="61.2735771" lon="73.3955041"/>
+ <node id="2583338622" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:24Z" user="toorboalex" uid="463102" lat="61.2737006" lon="73.3955505"/>
+ <node id="2583338682" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:25Z" user="toorboalex" uid="463102" lat="61.2737776" lon="73.3961729">
+  <tag k="barrier" v="gate"/>
+  <tag k="foot" v="yes"/>
+  <tag k="motorcar" v="yes"/>
+ </node>
+ <node id="2583338689" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:25Z" user="toorboalex" uid="463102" lat="61.2737829" lon="73.3957253"/>
+ <node id="2583363392" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2727686" lon="73.3911960"/>
+ <node id="2690808470" visible="true" version="1" changeset="20785768" timestamp="2014-02-26T08:29:44Z" user="toorboalex" uid="463102" lat="61.2717704" lon="73.4009099"/>
+ <node id="3132883975" visible="true" version="1" changeset="26112463" timestamp="2014-10-16T08:22:46Z" user="toorboalex" uid="463102" lat="61.2724502" lon="73.3965843"/>
+ <node id="3132883976" visible="true" version="1" changeset="26112463" timestamp="2014-10-16T08:22:46Z" user="toorboalex" uid="463102" lat="61.2725803" lon="73.3957271"/>
+ <node id="3339410493" visible="true" version="1" changeset="28722290" timestamp="2015-02-09T09:00:26Z" user="toorboalex" uid="463102" lat="61.2727226" lon="73.3948168">
+  <tag k="amenity" v="fuel"/>
+  <tag k="fuel:diesel" v="yes"/>
+  <tag k="fuel:octane_92" v="yes"/>
+  <tag k="fuel:octane_95" v="yes"/>
+  <tag k="fuel:octane_98" v="yes"/>
+  <tag k="name" v="Эталон"/>
+  <tag k="operator" v="Эталон"/>
+ </node>
+ <node id="3339410494" visible="true" version="1" changeset="28722290" timestamp="2015-02-09T09:00:26Z" user="toorboalex" uid="463102" lat="61.2723299" lon="73.3952253">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="3786484241" visible="true" version="1" changeset="34638660" timestamp="2015-10-14T18:13:32Z" user="LexIgnatov" uid="316868" lat="61.2740055" lon="73.3967730">
+  <tag k="barrier" v="block"/>
+  <tag k="vehicle" v="no"/>
+ </node>
+ <node id="5727430836" visible="true" version="1" changeset="60268738" timestamp="2018-06-29T07:00:52Z" user="toorboalex" uid="463102" lat="61.2738147" lon="73.3966012"/>
+ <node id="5727430837" visible="true" version="1" changeset="60268738" timestamp="2018-06-29T07:00:52Z" user="toorboalex" uid="463102" lat="61.2720683" lon="73.3952135"/>
+ <node id="8563942047" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2740363" lon="73.3824990"/>
+ <node id="8563942048" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2744759" lon="73.3792772"/>
+ <node id="8563942049" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2748067" lon="73.3768509"/>
+ <node id="8563942050" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2742803" lon="73.3806902">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="8563942051" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2748628" lon="73.3766875"/>
+ <node id="8563942052" visible="true" version="1" changeset="101790574" timestamp="2021-03-26T12:11:11Z" user="PodkovyrkinDmitry" uid="11310883" lat="61.2749846" lon="73.3764553"/>
+ <node id="8563942053" visible="true" version="1" changeset="101790574" timestamp="2021-03-26T12:11:11Z" user="PodkovyrkinDmitry" uid="11310883" lat="61.2750997" lon="73.3763854"/>
+ <node id="8563942054" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2752675" lon="73.3763283"/>
+ <node id="8563942055" visible="true" version="1" changeset="101790574" timestamp="2021-03-26T12:11:11Z" user="PodkovyrkinDmitry" uid="11310883" lat="61.2754526" lon="73.3762619"/>
+ <node id="8563942056" visible="true" version="1" changeset="101790574" timestamp="2021-03-26T12:11:11Z" user="PodkovyrkinDmitry" uid="11310883" lat="61.2755561" lon="73.3761239"/>
+ <node id="9277626327" visible="true" version="1" changeset="114137733" timestamp="2021-11-23T12:01:08Z" user="toorboalex" uid="463102" lat="61.2735048" lon="73.3968633"/>
+ <node id="9277626328" visible="true" version="1" changeset="114137733" timestamp="2021-11-23T12:01:08Z" user="toorboalex" uid="463102" lat="61.2731078" lon="73.3997494"/>
+ <node id="9287578423" visible="true" version="1" changeset="114286074" timestamp="2021-11-27T08:03:46Z" user="toorboalex" uid="463102" lat="61.2727798" lon="73.3937119">
+  <tag k="amenity" v="fuel"/>
+  <tag k="name" v="Артсевер"/>
+ </node>
+ <node id="11313682391" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2717660" lon="73.3979927"/>
+ <node id="11313682396" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2719973" lon="73.3944691"/>
+ <node id="11313682409" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2739199" lon="73.3833450"/>
+ <node id="11313682410" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2737730" lon="73.3843347">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="11313682411" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2737588" lon="73.3844715"/>
+ <node id="11313682412" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2737446" lon="73.3847854"/>
+ <node id="11313682413" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2736312" lon="73.3855203"/>
+ <node id="11313682414" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2735345" lon="73.3858770"/>
+ <node id="11313682415" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2733904" lon="73.3868991"/>
+ <node id="11313682416" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2732108" lon="73.3881817"/>
+ <node id="11313682417" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2730613" lon="73.3892137"/>
+ <node id="11313682419" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2729829" lon="73.3897247"/>
+ <node id="11313682420" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2724541" lon="73.3932960"/>
+ <node id="11313682421" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2723884" lon="73.3937842"/>
+ <node id="11313682422" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2722569" lon="73.3949080"/>
+ <node id="11313682423" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2721679" lon="73.3954346"/>
+ <node id="11313682424" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2720171" lon="73.3963886"/>
+ <node id="11313682425" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2719939" lon="73.3965871"/>
+ <node id="11313682426" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2719449" lon="73.3969411"/>
+ <node id="11313682427" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2718495" lon="73.3974105"/>
+ <node id="11313682428" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2717167" lon="73.3983359"/>
+ <node id="11313682429" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2715923" lon="73.3992299"/>
+ <node id="11313682430" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2713474" lon="73.4009723"/>
+ <node id="11313682431" visible="true" version="1" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102" lat="61.2711091" lon="73.4026782"/>
+ <way id="51475132" visible="true" version="10" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102">
+  <nd ref="302919344"/>
+  <nd ref="11313682423"/>
+  <nd ref="740549155"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="94334926" visible="true" version="4" changeset="34877989" timestamp="2015-10-26T11:02:39Z" user="toorboalex" uid="463102">
+  <nd ref="740549155"/>
+  <nd ref="1536479012"/>
+  <nd ref="1096062183"/>
+  <nd ref="1536479017"/>
+  <nd ref="1096062511"/>
+  <nd ref="1096062648"/>
+  <nd ref="1712349599"/>
+  <tag k="highway" v="service"/>
+  <tag k="maxspeed" v="5"/>
+ </way>
+ <way id="140234363" visible="true" version="4" changeset="28722290" timestamp="2015-02-09T09:00:26Z" user="toorboalex" uid="463102">
+  <nd ref="1536479046"/>
+  <nd ref="1536479040"/>
+  <nd ref="1536479020"/>
+  <nd ref="1536479012"/>
+  <nd ref="1536479009"/>
+  <nd ref="1536479017"/>
+  <nd ref="1536479018"/>
+  <nd ref="1536479042"/>
+  <nd ref="1536479046"/>
+  <tag k="area" v="yes"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="140234369" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102">
+  <nd ref="1536478943"/>
+  <nd ref="11313682396"/>
+  <nd ref="1536478982"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="140234375" visible="true" version="2" changeset="11272841" timestamp="2012-04-12T06:45:40Z" user="toorboalex" uid="463102">
+  <nd ref="1536479019"/>
+  <nd ref="1536479020"/>
+  <nd ref="1712349605"/>
+  <nd ref="1096062183"/>
+  <tag k="highway" v="service"/>
+  <tag k="maxspeed" v="5"/>
+ </way>
+ <way id="140234379" visible="true" version="2" changeset="15685858" timestamp="2013-04-11T07:15:14Z" user="toorboalex" uid="463102">
+  <nd ref="1536479021"/>
+  <nd ref="1536479018"/>
+  <nd ref="1536479042"/>
+  <nd ref="1536479044"/>
+  <nd ref="1536479021"/>
+  <tag k="addr:city" v="Сургут"/>
+  <tag k="addr:housenumber" v="19"/>
+  <tag k="addr:street" v="Нефтеюганское шоссе"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="1"/>
+ </way>
+ <way id="140234380" visible="true" version="2" changeset="108812010" timestamp="2021-07-29T09:34:29Z" user="любовьпопович" uid="8695802">
+  <nd ref="1536479042"/>
+  <nd ref="1536479037"/>
+  <nd ref="1536479015"/>
+  <nd ref="1536479018"/>
+  <nd ref="1536479042"/>
+  <tag k="addr:city" v="Сургут"/>
+  <tag k="addr:housenumber" v="19"/>
+  <tag k="addr:street" v="Нефтеюганское шоссе"/>
+  <tag k="building" v="roof"/>
+  <tag k="layer" v="1"/>
+ </way>
+ <way id="158852246" visible="true" version="3" changeset="114137733" timestamp="2021-11-23T12:01:08Z" user="toorboalex" uid="463102">
+  <nd ref="2690808470"/>
+  <nd ref="1805787125"/>
+  <nd ref="1805787127"/>
+  <nd ref="1805787130"/>
+  <nd ref="1805787134"/>
+  <nd ref="1805787136"/>
+  <nd ref="1192367803"/>
+  <nd ref="1192367836"/>
+  <nd ref="1709807493"/>
+  <nd ref="1709817476"/>
+  <nd ref="1709872366"/>
+  <nd ref="1709872371"/>
+  <nd ref="1709872365"/>
+  <nd ref="1709872360"/>
+  <nd ref="1709872215"/>
+  <nd ref="1709872138"/>
+  <nd ref="1709872106"/>
+  <nd ref="1192367795"/>
+  <nd ref="1709872143"/>
+  <nd ref="1709872201"/>
+  <nd ref="1709872171"/>
+  <nd ref="9277626328"/>
+  <nd ref="9277626327"/>
+  <tag k="barrier" v="wall"/>
+ </way>
+ <way id="158853227" visible="true" version="2" changeset="19493724" timestamp="2013-12-17T07:31:39Z" user="toorboalex" uid="463102">
+  <nd ref="2583338560"/>
+  <nd ref="2583338556"/>
+  <nd ref="2583338551"/>
+  <nd ref="2583338549"/>
+  <nd ref="2583338553"/>
+  <nd ref="2583338555"/>
+  <nd ref="2583338558"/>
+  <nd ref="2583338570"/>
+  <nd ref="2583338622"/>
+  <nd ref="2583338689"/>
+  <nd ref="2583338682"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="159135183" visible="true" version="15" changeset="126475955" timestamp="2022-09-21T18:00:41Z" user="Владимир К" uid="2853561">
+  <nd ref="1096062531"/>
+  <nd ref="1536478982"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="4"/>
+  <tag k="maxspeed" v="60"/>
+  <tag k="name" v="Нефтеюганское шоссе"/>
+  <tag k="postal_code" v="628406"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="159135184" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:35Z" user="toorboalex" uid="463102">
+  <nd ref="1712349603"/>
+  <nd ref="1712349610"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="159135187" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:35Z" user="toorboalex" uid="463102">
+  <nd ref="1712349621"/>
+  <nd ref="1712349635"/>
+  <nd ref="1712349620"/>
+  <nd ref="1712349607"/>
+  <nd ref="1712349603"/>
+  <nd ref="1712349600"/>
+  <nd ref="1096062648"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="159135190" visible="true" version="1" changeset="11272841" timestamp="2012-04-12T06:45:36Z" user="toorboalex" uid="463102">
+  <nd ref="1712349616"/>
+  <nd ref="1712349608"/>
+  <nd ref="1712349619"/>
+  <nd ref="1712349628"/>
+  <nd ref="1712349616"/>
+  <tag k="building" v="industrial"/>
+ </way>
+ <way id="159135193" visible="true" version="2" changeset="19493724" timestamp="2013-12-17T07:31:40Z" user="toorboalex" uid="463102">
+  <nd ref="1712349640"/>
+  <nd ref="1712349624"/>
+  <tag k="barrier" v="wall"/>
+ </way>
+ <way id="159135652" visible="true" version="5" changeset="60268738" timestamp="2018-06-29T07:00:53Z" user="toorboalex" uid="463102">
+  <nd ref="740549155"/>
+  <nd ref="3132883976"/>
+  <nd ref="1536479019"/>
+  <nd ref="1637353698"/>
+  <nd ref="1637353700"/>
+  <nd ref="5727430836"/>
+  <nd ref="657529893"/>
+  <nd ref="3786484241"/>
+  <nd ref="2583240998"/>
+  <nd ref="889687184"/>
+  <nd ref="657529894"/>
+  <tag k="highway" v="unclassified"/>
+  <tag k="maxspeed" v="40"/>
+ </way>
+ <way id="252237296" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:37Z" user="toorboalex" uid="463102">
+  <nd ref="1712349624"/>
+  <nd ref="1712349606"/>
+  <nd ref="1712349607"/>
+  <nd ref="1712349614"/>
+  <nd ref="1712349610"/>
+  <nd ref="1712349609"/>
+  <nd ref="1712349611"/>
+  <nd ref="1712349612"/>
+  <nd ref="1712349615"/>
+  <nd ref="1712349618"/>
+  <nd ref="1712349623"/>
+  <nd ref="1712349625"/>
+  <nd ref="1712349627"/>
+  <nd ref="1712349631"/>
+  <tag k="barrier" v="wall"/>
+ </way>
+ <way id="252237310" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:38Z" user="toorboalex" uid="463102">
+  <nd ref="1712349643"/>
+  <nd ref="1712349642"/>
+  <nd ref="1712349641"/>
+  <nd ref="1712349604"/>
+  <nd ref="1712349624"/>
+  <tag k="barrier" v="wall"/>
+ </way>
+ <way id="308005236" visible="true" version="1" changeset="26112463" timestamp="2014-10-16T08:22:46Z" user="toorboalex" uid="463102">
+  <nd ref="3132883976"/>
+  <nd ref="1709872215"/>
+  <nd ref="3132883975"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="603250204" visible="true" version="2" changeset="126475955" timestamp="2022-09-21T18:00:41Z" user="Владимир К" uid="2853561">
+  <nd ref="1536478982"/>
+  <nd ref="5727430837"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="4"/>
+  <tag k="maxspeed:backward" v="40"/>
+  <tag k="maxspeed:forward" v="RU:urban"/>
+  <tag k="name" v="Нефтеюганское шоссе"/>
+  <tag k="postal_code" v="628406"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="922481589" visible="true" version="2" changeset="143608120" timestamp="2023-11-04T11:08:51Z" user="toorboalex" uid="463102">
+  <nd ref="1709379210"/>
+  <nd ref="11313682431"/>
+  <nd ref="11313682430"/>
+  <nd ref="11313682429"/>
+  <nd ref="11313682428"/>
+  <nd ref="11313682391"/>
+  <nd ref="11313682427"/>
+  <nd ref="11313682426"/>
+  <nd ref="11313682425"/>
+  <nd ref="11313682424"/>
+  <nd ref="11313682423"/>
+  <nd ref="11313682422"/>
+  <nd ref="11313682421"/>
+  <nd ref="1712349599"/>
+  <nd ref="11313682420"/>
+  <nd ref="2583363392"/>
+  <nd ref="11313682419"/>
+  <nd ref="11313682417"/>
+  <nd ref="11313682416"/>
+  <nd ref="11313682415"/>
+  <nd ref="11313682414"/>
+  <nd ref="11313682413"/>
+  <nd ref="11313682412"/>
+  <nd ref="11313682411"/>
+  <nd ref="11313682410"/>
+  <nd ref="2010267401"/>
+  <nd ref="11313682409"/>
+  <nd ref="8563942047"/>
+  <nd ref="8563942050"/>
+  <nd ref="8563942048"/>
+  <nd ref="1918248267"/>
+  <nd ref="8563942049"/>
+  <nd ref="8563942051"/>
+  <nd ref="8563942052"/>
+  <nd ref="8563942053"/>
+  <nd ref="8563942054"/>
+  <nd ref="8563942055"/>
+  <nd ref="8563942056"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <relation id="2130836" visible="true" version="4" changeset="34877989" timestamp="2015-10-26T11:02:39Z" user="toorboalex" uid="463102">
+  <member type="node" ref="1096062531" role="via"/>
+  <member type="way" ref="308001566" role="to"/>
+  <member type="way" ref="376964319" role="from"/>
+  <tag k="restriction" v="only_right_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="3382887" visible="true" version="2" changeset="19496638" timestamp="2013-12-17T11:13:48Z" user="toorboalex" uid="463102">
+  <member type="way" ref="252237307" role="outer"/>
+  <member type="way" ref="252237300" role="outer"/>
+  <member type="way" ref="252237310" role="outer"/>
+  <member type="way" ref="159135193" role="outer"/>
+  <member type="way" ref="252237306" role="outer"/>
+  <member type="way" ref="252237309" role="outer"/>
+  <member type="way" ref="252237304" role="outer"/>
+  <member type="way" ref="252237311" role="outer"/>
+  <member type="way" ref="159135196" role="outer"/>
+  <member type="way" ref="159135197" role="outer"/>
+  <member type="way" ref="252259890" role="outer"/>
+  <member type="way" ref="220482970" role="outer"/>
+  <member type="way" ref="252237298" role="outer"/>
+  <member type="way" ref="252237308" role="outer"/>
+  <member type="way" ref="252237301" role="outer"/>
+  <tag k="landuse" v="industrial"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+ <relation id="3382888" visible="true" version="1" changeset="19493724" timestamp="2013-12-17T07:31:39Z" user="toorboalex" uid="463102">
+  <member type="way" ref="252237296" role="outer"/>
+  <member type="way" ref="159135193" role="outer"/>
+  <member type="way" ref="252237305" role="outer"/>
+  <tag k="landuse" v="industrial"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+ <relation id="3537805" visible="true" version="4" changeset="60268738" timestamp="2018-06-29T07:00:53Z" user="toorboalex" uid="463102">
+  <member type="way" ref="140234369" role="from"/>
+  <member type="node" ref="1536478982" role="via"/>
+  <member type="way" ref="603250204" role="to"/>
+  <tag k="restriction" v="only_right_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+</osm>

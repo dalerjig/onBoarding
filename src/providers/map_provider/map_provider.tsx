@@ -2,7 +2,7 @@ import { ReactNode, useEffect, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import osmtogeojson from "osmtogeojson";
-
+import myJson from "../../assets/openStreetMap.json";
 type TMapProviderProps = { children: ReactNode };
 import { useMapStore } from "../../store/mapStore";
 import { uniqueId } from "lodash";
@@ -48,7 +48,8 @@ export const MapProvider: React.FC<TMapProviderProps> = ({ children }) => {
       .then((data) => {
         //setOsmPolygonData(data); // Преобразуем данные OSM в формат GeoJSON
         const geoJsonData = osmtogeojson(data); // Преобразуем данные OSM в формат GeoJSON
-        setOsmPolygonData(geoJsonData);
+
+        setOsmPolygonData(geoJsonData); //тут!
         console.log(geoJsonData);
       });
   }, []);
@@ -133,7 +134,21 @@ export const MapProvider: React.FC<TMapProviderProps> = ({ children }) => {
     return () => {
       map.remove();
     };
-  }, [osmPolygonData, map]);
+  }, [osmPolygonData]);
+
+  const unsubscribeCenter = useMapStore.subscribe((state) => {
+    console.log("Center changed:", state.center);
+  });
+
+  const unsubscribeZoom = useMapStore.subscribe((state) => {
+    console.log("Zoom changed:", state.zoom);
+  });
+  useEffect(() => {
+    return () => {
+      unsubscribeCenter();
+      unsubscribeZoom();
+    };
+  }, []);
 
   //при пустом массиве юэф 1 раз лишь срабатывает при монтировании
 
